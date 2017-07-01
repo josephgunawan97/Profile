@@ -9,6 +9,10 @@ html{
 
 }
 
+body {
+  overflow-y: hidden;
+}
+
 h1 {
   font-weight: 100;
   letter-spacing: 3;
@@ -27,13 +31,33 @@ p {
 .parent {
   padding: 40px;
   width: 400px; 
-  height: 450px; 
+  height: 420px; 
   background: gray;
   background:rgba(0,0,0,0.5);
   color: white;  
   margin: 0 auto;
-  margin-top : 60px;
+  margin-top : 40px;
   text-align: center;
+}
+
+.button-parent {
+
+  margin: 0 auto;
+  margin-top : 50px;
+  text-align: center;
+}
+
+.btn {
+
+  background:rgba(0,0,0,0.3);
+  color: white;  
+  font-size: 80%;
+  text-align: center;
+  text-decoration: none;
+  border: solid white;
+  padding: 10px 20px;
+  margin: 0 auto;
+  text-transform: uppercase;
 }
 
 .social-link{
