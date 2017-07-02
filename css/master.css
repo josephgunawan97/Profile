@@ -10,7 +10,7 @@ html{
 }
 
 body {
-  overflow-y: hidden;
+ overflow-x: hidden;
 }
 
 h1 {
@@ -36,14 +36,50 @@ p {
   background:rgba(0,0,0,0.5);
   color: white;  
   margin: 0 auto;
-  margin-top : 40px;
+  margin-top : 30px;
   text-align: center;
 }
 
+.content1 {
+  padding-left: 60px;
+  width: 75%; 
+  height: 270px; 
+  background: gray;
+  background:rgba(0,0,0,0.5);
+  color: white;  
+  margin-right: 0px;
+  margin-left:-2%;
+  margin-top:10%;
+  margin-bottom:1%;
+  text-align: left;
+  overflow: hidden;
+
+}
+
+#content1 {
+  -webkit-clip-path:polygon(0% 100%, 90% 100%,100% 0%,0% 0%);
+}
+
+.content2 {
+  padding-right: 100px;
+  width: 97%; 
+  height: 250px; 
+  background: gray;
+  background:rgba(0,0,0,0.5);
+  color: white;  
+  text-align: right;
+  margin-bottom:5%;
+  overflow: hidden;
+}
+
+
+#content2 {
+  -webkit-clip-path:polygon(10% 100%, 100% 100%,100% 0%,20% 0%);
+}
 .button-parent {
 
   margin: 0 auto;
-  margin-top : 50px;
+  margin-top : 60px;
   text-align: center;
 }
 
@@ -70,4 +106,20 @@ p {
 .line-break{
   width: 400px;
   border-top: 1px solid white;
+}
+
+.skill{
+
+  line-height: 1.8;
+  display: inline-block;
+  letter-spacing: 78px;
+  font-size: 50px;
+}
+
+.soft-skill{
+  margin-top: -1%;
+  line-height: 1.5;
+  display: inline-block;
+  letter-spacing: 5px;
+  font-size: 20px;
 }
